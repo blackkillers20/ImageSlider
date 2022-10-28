@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/IdSlider"
+        android:icon="@drawable/ic_baseline_photo_24"
+        android:orderInCategory="100"
+        android:title="Slider"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/IdCamera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/IdAddUrl"
+        android:icon="@drawable/ic_baseline_add_a_photo_24"
+        android:orderInCategory="100"
+        android:title="URL"
+        app:showAsAction="always" />
+
+
+
+</menu>
